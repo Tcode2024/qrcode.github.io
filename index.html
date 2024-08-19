@@ -8,28 +8,50 @@
   
   <title>Frontend Mentor | QR code component</title>
 
+  <!-- embedded code for "outfit" font style  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    .improve {font-weight: bold; font-size: 25px; width:300px }
+    .instructions {color: gray; display: flex; flex-wrap: wrap; width:300px}
+    .container{ background-color: white; border-radius: 25px; width: 400px; padding-top: 20px; padding-bottom: 50px; gap: 30px; display: flex; flex-direction: column; align-items: center;} 
+    .center{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); }
+    body {font-family: "outfit"; background-color: hsl(212,45%,89%); min-height: 100vh; position: relative;}
+    img {border-radius: 25px;}
+
   </style>
 </head>
 <body>
 
-  <p>
-    Hi this is my first frontend mentor project
-   </p>
-   
+<div class="center">
 
-  Improve your front-end skills by building projects
+  <div class="container">
+    <img src="./images/image-qr-code.png" width="375px">
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    <div class="improve">
+     Improve your front-end skills by building projects
+    </div>
+
+    <div class="instructions">
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </div>
+
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Tcode2024</a>.
   </div>
 
+</div> 
+
   
+
+
 </body>
 </html>
